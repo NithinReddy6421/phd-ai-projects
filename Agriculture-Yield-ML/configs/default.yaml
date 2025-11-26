@@ -1,0 +1,5 @@
+data:
+  processed_parquet: out/processed.parquet
+target: yield
+output:
+  model_path: out/model.joblib

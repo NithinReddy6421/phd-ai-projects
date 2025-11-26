@@ -1,15 +1,10 @@
 # Agriculture-Yield-ML
 
-Research-grade ML pipeline for crop yield prediction and interpretability.
+Summary
+- Goal: Build ML models to predict crop yields from remote sensing and structured data.
+- Contents: notebooks/, train.py, requirements.txt, results/
 
-## Contents
-- `data_prep.py` - ETL and feature engineering scripts
-- `train.py` - training orchestration for RF / XGBoost / LSTM (config-driven)
-- `evaluate.py` - evaluation metrics, cross-validation, SHAP explainability integration
-- `notebooks/experiments.py` - runnable experiment notebook script
-- `requirements.txt`
-
-## Quick start
-1. Prepare dataset in `data/` (CSV files) and ensure licensing allows use.
-2. `pip install -r requirements.txt`
-3. `python train.py --config configs/default.yaml`
+How to run (example):
+1. python -m venv venv && source venv/bin/activate
+2. pip install -r requirements.txt
+3. Run notebooks for exploratory analysis.
